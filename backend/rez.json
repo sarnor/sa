@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Русское Радио",
+        "url": "https://rusradio.hostingradio.ru/rusradio96.aacp"
+    },
+    {
+        "name": "Chanson",
+        "url": "http://chanson.hostingradio.ru:8041/chanson128.mp3"
+    },
+    {
+        "name": "Europa Plus/Москва/256-MP3",
+        "url": "http://ep256.hostingradio.ru:8052/europaplus256.mp3"
+    },
+    {
+        "name": "Авто Радио",
+        "url": "https://pub0302.101.ru:8443/stream/air/aac/64/100?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpcCI6IjIxMi41OC4xMDIuMTQ0IiwidXNlcmFnZW50IjoiTW96aWxsYVwvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0XC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWVcLzk2LjAuNDY2NC40NSBTYWZhcmlcLzUzNy4zNiBPUFJcLzgyLjAuNDIyNy4xMyAoRWRpdGlvbiBiZXRhKSIsInVpZF9jaGFubmVsIjoiMTAwIiwidHlwZV9jaGFubmVsIjoiY2hhbm5lbCIsImV4cCI6MTYzOTA1NDE0Nn0.u0Fagc1UgCtjDLSRJwDA3InfTKaGVaeXD7fwh2nk4as"
+    },
+    {
+        "name": "Asia-Plus",
+        "url": "https://radio.migrantnews.info/ap"
+    },
+    {
+        "name": "Radio Kavkaz Armeniea",
+        "url": "https://kavkazhit.hostingradio.ru:8017/kavkazhit96.mp3"
+    },
+    {
+        "name": "Lav Radio (Armenia)",
+        "url": "https://eu.stream4cast.com/proxy/lavradio/stream"
+    },
+    {
+        "name": "Yerevan Nights (Armenia)",
+        "url": "http://icecast.yerevannights.com/YerevanNights"
+    },
+    {
+        "name": "Hay FM 105.5 (Armenia)",
+        "url": "http://14842.cloudrad.io:9536/live?ver=658784"
+    }
+]

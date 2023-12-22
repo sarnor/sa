@@ -1,4 +1,10 @@
-let chanel, radioPlayeer;
+import './menu/index.js'
+
+const radio = new Audio();
+
+let chanel, radioPlayeer, favorit, listWrapper, elSpan, radioData, radioDatav;
+
+
 const httpAjax = (method, url, body = null) => {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
@@ -14,12 +20,9 @@ const httpAjax = (method, url, body = null) => {
 
 
 radioPlayeer = (radioUrl, btnPlay, bg) => {
-
-
     btnPlay.forEach((e, i) => {
         e.addEventListener("pointerup", event => {
             radio.muted = false;
-
             localStorage.setItem('radioDetails', JSON.stringify({
                 name: radioUrl[i].name,
                 url: radioUrl[i].url,
@@ -27,7 +30,6 @@ radioPlayeer = (radioUrl, btnPlay, bg) => {
                 favorites: []
             }))
             radioData = localStorage.getItem('radioDetails')
-
             if (radio.src === "") {
                 e.classList.add("active");
                 radio.src = radioUrl[i].url;
@@ -48,7 +50,6 @@ radioPlayeer = (radioUrl, btnPlay, bg) => {
                 location.hash = radioUrl[i].name;
             }
             radioDatav = JSON.parse(radioData)
-
         });
     });
 };
@@ -91,14 +92,10 @@ buildTracks
     .then(() => favorit = document.querySelectorAll('.favorit'))
 
 
-const menuIcon = document.querySelector('.menu-icon');
-const radio = new Audio();
 
 
 
-menuIcon.addEventListener('pointerup', (event) => {
-    event.currentTarget.classList.contains('open')
-        ? event.currentTarget.classList.remove('open')
-        : event.currentTarget.classList.add('open')
-})
+
+
+
 

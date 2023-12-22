@@ -11,7 +11,10 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    min-height: 100vh;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Lato';
 }
 
 .root-wrapper {
@@ -37,7 +40,7 @@ header {
 }
 
 .menu-icon svg {
-    color: orange;
+    color: white;
     font-size: 30px;
     cursor: pointer;
 }
@@ -60,4 +63,41 @@ header {
 
 .list-wrapper {
     background-color: blueviolet;
+    padding: 50px;
+    height: 100vh;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.list-wrapper li {
+    position: relative;
+    margin: 15px;
+    padding: 40px;
+    border: 1px solid #272727;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    list-style-position: outside;
+
+
+}
+
+li::marker {
+    font-size: 53px;
+    /* background-color: black; */
+    color: brown;
+    display: block;
+}
+
+
+.list-wrapper li.active {
+    background-color: #272727;
+    color: aliceblue;
+}
+
+.list-wrapper li.active.active-pause {
+    background-color: brown;
 }
