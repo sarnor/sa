@@ -81,7 +81,7 @@ header {
     cursor: pointer;
     list-style-position: outside;
 
-
+    border-radius: 5px;
 }
 
 li::marker {
