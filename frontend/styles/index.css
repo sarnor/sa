@@ -62,7 +62,7 @@ header {
 }
 
 .list-wrapper {
-    background-color: brown;
+    background-color: rgb(134, 148, 6);
     padding: 50px;
     height: 80vh;
     overflow-x: hidden;
